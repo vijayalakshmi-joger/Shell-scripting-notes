@@ -1,0 +1,13 @@
+#1. File Transfer script
+-------------------------------------------
+#/bin/bash
+
+echo " Enter source file for transfer: "
+read source_path
+echo " enter dest path to transfer: "
+read dest_path
+
+mv $source_path/* $dest_path/
+
+echo "File transfer completed "
+--------------------------------------------
